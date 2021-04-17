@@ -30,3 +30,17 @@
 #       E.G. A >> B will RIGHT SHIFT binary of A for B times
 #            - 5 >> 2 =  1 EXP: binary of 5 is 101 and 1'st left shift of 101 is 010 and 2'nd left shift of 101 is 001 = 1 in int
 
+## NOW QUE 1 ) PRINT THE FOLLOWING PATTERN FOR THE VALUE OF N:
+#    *
+#   ***
+#  *****
+# *******
+#*********
+# above is for n=5
+
+
+
+n = int(input())
+
+for i in range(0,n):
+    print(" "*(n-1-i) + "*"*(2*i-1))
